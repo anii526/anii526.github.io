@@ -1,0 +1,6 @@
+D:\work\git\WebProject-1xslot\html5\SlotGamesPixi\bin\SlotGamesPixi.dll.config
+D:\work\git\WebProject-1xslot\html5\SlotGamesPixi\bin\SlotGamesPixi.dll
+D:\work\git\WebProject-1xslot\html5\SlotGamesPixi\bin\SlotGamesPixi.pdb
+D:\work\git\WebProject-1xslot\html5\SlotGamesPixi\obj\Debug\SlotGamesPixi.csprojResolveAssemblyReference.cache
+D:\work\git\WebProject-1xslot\html5\SlotGamesPixi\obj\Debug\SlotGamesPixi.dll
+D:\work\git\WebProject-1xslot\html5\SlotGamesPixi\obj\Debug\SlotGamesPixi.pdb
