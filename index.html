@@ -8,13 +8,6 @@
     <title>SlotGamesPixi</title>
     <script src="scripts/stats.min.js"></script>
     <script src="scripts/pixi.min.js"></script>
-    <!--<script src="scripts/jquery-3.1.0.min.js"></script>--> 
-    <script src="scripts/libs_js.js"></script>  
-    <script src="engine/panel_adapter.js"></script>
-    <script src="engine/slot_enity.js"></script>
-    <script src="engine/commands_slot.js"></script>
-    <script src="engine/model_slot.js"></script>
-    <script src="main_slot.js"></script>
     <style>
         canvas {
           display: block;
@@ -29,55 +22,7 @@
 </head>
 
 <body>
-    <!--<canvas id="slotCanvas" width=580 height=320></canvas>-->
     <script>
-       /* var win = window,
-              doc = document,
-              w = win.innerWidth,
-              h = win.innerHeight,
-              canvas = doc.getElementById('zoneCanvas');
-
-        if (win.navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/i)) {
-            canvas.height = h;
-            canvas.width = w;
-        }*/
-        if (getparam('gameId') !== "")
-            mainSlot.startSlot(getparam('gameId'), getparam('partnerid'), getparam('currency'), getparam('userid'), getparam('demo'), getparam('token'));
-        else
-            // оставил чтобы на локале у себя мог тестить пока
-            //mainSlot.startSlot(22, 1, "USD", "56", 1);
-            mainSlot.startSlot(13, 1, "USD", "56", 1);
-
-        //TODO переместить позже
-        function toggleFullScreen() {
-            if ((document.fullScreenElement && document.fullScreenElement !== null) ||
-            (!document.mozFullScreen && !document.webkitIsFullScreen)) {
-                if (document.documentElement.requestFullScreen) {
-                    document.documentElement.requestFullScreen();
-                } else if (document.documentElement.mozRequestFullScreen) {
-                    document.documentElement.mozRequestFullScreen();
-                } else if (document.documentElement.webkitRequestFullScreen) {
-                    document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
-                }
-            } else {
-                if (document.cancelFullScreen) {
-                    document.cancelFullScreen();
-                } else if (document.mozCancelFullScreen) {
-                    document.mozCancelFullScreen();
-                } else if (document.webkitCancelFullScreen) {
-                    document.webkitCancelFullScreen();
-                }
-            }
-        }
-
-        function getparam(name) {
-            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-            var regexS = "[\\?&]" + name + "=([^&#]*)";
-            var regex = new RegExp(regexS);
-            var results = regex.exec(window.location.href);
-            if (results == null) return "";
-            else return results[1];
-        }
     </script>
 </body>
 </html>
