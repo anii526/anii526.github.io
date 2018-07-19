@@ -23,6 +23,8 @@
 
 <body>
     <script>
+	window.onload = function() {
+	alert( 'Документ и все ресурсы загружены' );
 	var app = new PIXI.Application(800, 600, {backgroundColor : 0x1099bb});
 document.body.appendChild(app.view);
 
@@ -45,6 +47,7 @@ app.ticker.add(function(delta) {
     // creates frame-independent transformation
     bunny.rotation += 0.1 * delta;
 });
+};
     </script>
 </body>
 </html>
