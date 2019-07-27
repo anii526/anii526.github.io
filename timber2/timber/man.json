@@ -1,0 +1,56 @@
+{"frames": {
+
+"man1.png":
+{
+	"frame": {"x":1,"y":408,"w":336,"h":324},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":85,"w":336,"h":324},
+	"sourceSize": {"w":527,"h":413}
+},
+"man2.png":
+{
+	"frame": {"x":339,"y":398,"w":448,"h":334},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":75,"w":448,"h":334},
+	"sourceSize": {"w":527,"h":413}
+},
+"man3.png":
+{
+	"frame": {"x":597,"y":1,"w":336,"h":324},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":85,"w":336,"h":324},
+	"sourceSize": {"w":527,"h":413}
+},
+"wdoh1.png":
+{
+	"frame": {"x":1,"y":1,"w":296,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":4,"w":296,"h":405},
+	"sourceSize": {"w":527,"h":413}
+},
+"wdoh2.png":
+{
+	"frame": {"x":299,"y":1,"w":296,"h":395},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":14,"w":296,"h":395},
+	"sourceSize": {"w":527,"h":413}
+}},
+"animations": {
+	"man": ["man1.png","man2.png","man3.png"],
+	"wdoh": ["wdoh1.png","wdoh2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "man.png",
+	"format": "RGBA8888",
+	"size": {"w":934,"h":733},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c0e5ae83d89e08b53de0ff371c52dc6c:592dfb642c68bcc6c6a5f21bb57372da:7cb16ae2a7812a83bde2d0f7d63f713f$"
+}
+}

@@ -3,11 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <!--<meta name="viewport" content="height=device-height,width=device-width" />-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="viewport" content="height=device-height,width=device-width" />
     <title>SlotGamesPixi</title>
-    <script src="scripts/stats.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
     <style>
         canvas {
           display: block;
@@ -15,39 +12,16 @@
         body {
             margin:0; 
             padding:0;
-            background-color:#02274A;
+            background-color:rgb(49, 123, 192);
         }
     </style>
 
 </head>
 
 <body>
-    <script>
-	window.onload = function() {
-	alert( 'Документ и все ресурсы загружены' );
-	var app = new PIXI.Application(800, 600, {backgroundColor : 0x1099bb});
-document.body.appendChild(app.view);
-
-// create a new Sprite from an image path
-var bunny = PIXI.Sprite.fromImage('bunny.png')
-
-// center the sprite's anchor point
-bunny.anchor.set(0.5);
-
-// move the sprite to the center of the screen
-bunny.x = app.screen.width / 2;
-bunny.y = app.screen.height / 2;
-
-app.stage.addChild(bunny);
-
-// Listen for animate update
-app.ticker.add(function(delta) {
-    // just for fun, let's rotate mr rabbit a little
-    // delta is 1 if running at 100% performance
-    // creates frame-independent transformation
-    bunny.rotation += 0.1 * delta;
-});
-};
-    </script>
+    <div>
+        timber,
+        timber2
+    </div>
 </body>
 </html>
